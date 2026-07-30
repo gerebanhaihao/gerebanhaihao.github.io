@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "timeline": "Timeline",
+    "skills": "Tech Stack",
+    "contact": "Contact",
+    "documents": "Articles"
+  },
+  "intro": {
+    "avatarAlt": "Lain-Ego's avatar",
+    "title": "Hello, I'm Lain",
+    "desc": "Robotics developer and junior undergraduate.<br>Currently interning at a humanoid robotics company.<br>Focused on MCU and Linux application development, motion control, RL deployment, and robot perception."
+  },
+  "projects": {
+    "title": "Projects",
+    "imgAlt": "Project image",
+    "links": {
+      "code": "Code",
+      "docs": "Docs",
+      "demo": "Demo",
+      "website": "Website",
+      "feishu": "Feishu Wiki",
+      "zhihu": "Zhihu Article",
+      "firmware": "Firmware",
+      "mechanical": "Mechanical",
+      "vision": "Vision"
+    },
+    "item0": {
+      "title": "Questech Humanoid Robot",
+      "desc": "Participated in early-stage R&D and iteration of a humanoid robot at Qianxing Intelligence, focusing on motion-control algorithms, action-data processing, control-framework development, and real-hardware debugging. Work covered motion retargeting and motion-capture data flow, driver-layer collaboration, hierarchical policy validation in simulation training, and preprocessing optimization for perception detection.",
+      "tags": ["Humanoid Robotics", "Motion Control", "Reinforcement Learning", "Motion Capture", "Robot Perception"]
+    },
+    "item1": {
+      "title": "LocoWiki Robot Locomotion Resource Hub",
+      "desc": "A one-stop resource hub for robot locomotion, built for ROBOCON preparation, research study, and engineering reference. It aggregates competition rules, university team technical talks, paper reading lists, and mainstream open-source project indexes, with a companion website and Feishu knowledge base.",
+      "tags": ["Wiki", "Knowledge Base", "Robotics", "Open Source"]
+    },
+    "item2": {
+      "title": "High Torque Desktop-Class Quadruped",
+      "desc": "A full-stack open-source quadruped project spanning mechanical design, URDF modeling, Isaac Gym RL training, and sim-to-real deployment. It centers on HTDW4438-OpenDog and works together with HTDW4438-AMP, HTDW4438_HIMloco, and HTDW4438_Isaacgym as one development pipeline.",
+      "tags": ["Robotics", "Reinforcement Learning", "Sim-to-Real", "Deployment"]
+    },
+    "item3": {
+      "title": "ROBOCON 2025 Legged Robot",
+      "desc": "Full-stack R&D for the 2025 ROBOCON legged robot. Responsible for carbon-tube mechanical modeling, force control algorithms, and 3D LiDAR SLAM navigation. Led the team to rank 30th in Speed, 31st in Obstacle, and 34th in Cross-Country among 180+ teams.",
+      "tags": ["Robotics", "Motion Control", "SLAM", "LiDAR", "Mechanical Design"]
+    },
+    "item4": {
+      "title": "Bionic Lobster Submersible",
+      "desc": "Buoyancy-controllable multi-DOF underwater robot. Developed the control system, including stepper peristaltic pumps, motor and servo drivers, gyroscope fusion, and I2C encoder closed-loop control. Designed a vectored propulsion model for omnidirectional movement and handled driver selection and waterproofing.",
+      "tags": ["Underwater Robotics", "Embedded Systems", "Vectored Propulsion", "Waterproof Engineering"]
+    },
+    "item5": {
+      "title": "Intelligent Rice Transplanting and Harvesting Robot",
+      "desc": "FreeRTOS-based agricultural robot for rice transplanting and harvesting. Controlled DJI 3508 motors for gripper lifting and an omnidirectional chassis, achieving ±5 mm positioning accuracy. Participated in pneumatic design and hardware wiring, supporting dual-robot collaboration.",
+      "tags": ["Agricultural Robotics", "FreeRTOS", "Motor Control", "Multi-Robot Collaboration"]
+    },
+    "item6": {
+      "title": "SliverWolf Desktop Quadruped and Arm",
+      "desc": "An open-source desktop 12-DOF serial-link quadruped with an optional robotic arm and gripper. Built around STM32F103 and MG92R micro servos, the repository includes body and arm STL files, PCB PDFs, quadruped firmware, voice relay firmware, posture/button-control examples, and an LD3320 voice-recognition project. Serial commands cover standing, forward/backward walking, turning, strafing, crawling, handshaking, light effects, and one-click object fetching through Bluetooth, IMU/button, and voice-control paths.",
+      "tags": ["STM32F103", "Voice Control", "IMU", "LD3320", "Robotic Arm"]
+    },
+    "item7": {
+      "title": "3508 Legged-Robot Drive Test Platform",
+      "desc": "A DJI M3508-powered quadruped drive validation platform iterated by the MTI Robotics Team at Fujian University of Technology since 2022. Starting from an F427 ROBOCON chassis architecture, it evolved into a quadruped control program with RC/keyboard operation, variable PID motor parameters, stable standing, gyroscope attitude balance, LiDAR height holding, gait timing, frame compensation, backward gait, turning, and track testing for multiple ROBOCON legged-robot seasons.",
+      "tags": ["M3508", "Motor Control", "PID", "Sensor Fusion", "Legged Robot"]
+    },
+    "item8": {
+      "title": "ROBOCON2024-PPS",
+      "desc": "MTIPPS is a planar base-axis positioning system for ROBOCON 2024 robots. Based on STM32F103C8T6, RS485 absolute encoders, and omni-wheel code disks, it reads XY displacement with millimeter-level travel recording while collecting Hi219 gyroscope attitude data. The system streams positioning and attitude information to the robot mainboard for chassis localization, path-planning, and autonomous driving tests.",
+      "tags": ["STM32F103", "Positioning", "RS485", "Absolute Encoder", "IMU"]
+    },
+    "item9": {
+      "title": "Typst Chinese Resume Template Library",
+      "desc": "A Typst resume template library that can be edited directly and exported to PDF. It includes basic resume layouts, multiple reference-style templates, exported PDFs, preview images, and optional avatar assets. The workflow is built around VS Code with the Tinymist Typst extension for live preview, with README notes covering Typst CLI compilation, batch export, and font dependency setup.",
+      "tags": ["Typst", "Resume", "Template", "PDF"]
+    }
+  },
+  "documents": {
+    "title": "Articles",
+    "item0": {
+      "title": "Robotics Engineer Learning Roadmap (Preview) - Lain-Ego on Zhihu",
+      "desc": "A structured learning path for robotics engineers, covering core areas such as motion control, perception, embedded systems, and SLAM, with phased study suggestions and resource indexing."
+    },
+    "item1": {
+      "title": "A Guide to Career Paths in the Robotics Industry — for High School Students - KKR Database on Zhihu",
+      "desc": "An overview of development paths and subfields in the robotics industry for high school students, helping connect university major choices with career directions through a clear industry landscape."
+    },
+    "item2": {
+      "title": "On the Organizational Maturity of University Robotics Competition Teams - KKR Database on Zhihu",
+      "desc": "Exploring how university robotics competition teams can improve organizational efficiency, knowledge transfer, and collaboration — from team structure and document management to sustainable season planning."
+    }
+  },
+  "timeline": {
+    "title": "Timeline",
+    "event11": {
+      "date": "2026.03 - Present",
+      "title": "Internship at Qianxing Intelligence",
+      "desc": "Responsible for motion control and human-robot interaction R&D for humanoid robots."
+    },
+    "event10": {
+      "date": "2026.03",
+      "title": "Launched LocoWiki Resource Hub",
+      "desc": "Launched the LocoWiki resource hub for robot competition preparation, research learning, and development reference, bringing together competition rules, technical sharing, paper reading lists, and high-quality open-source projects in one place."
+    },
+    "event12": {
+      "date": "2025.11",
+      "title": "Launched OpenDoge Open-Source Quadruped Crowdfunding",
+      "desc": "Participated as a founding developer in the OpenDoge quadruped robot crowdfunding campaign, leading algorithm and hardware driver deployment layer R&D. Project delivery scheduled for late June 2026."
+    },
+    "event1": {
+      "date": "2024.05",
+      "title": "Open-Sourced SliverWolf Desktop Serial-Link Quadruped",
+      "desc": "Released SliverWolf, a desktop serial-link quadruped robot featuring voice control and robotic-arm collaboration."
+    },
+    "event2": {
+      "date": "2024.07",
+      "title": "2024 ROBOCON National Competition",
+      "desc": "Developed the embedded control system for the R1 robot based on FreeRTOS, achieving ±5mm positioning accuracy, ball launching, and gripper functionalities."
+    },
+    "event4": {
+      "date": "2024.11",
+      "title": "Fujian Intelligent Marine Equipment Design Competition",
+      "desc": "Led control-system development for a buoyancy-controllable multi-DOF lobster-inspired underwater robot, winning the Grand Prize."
+    },
+    "event5": {
+      "date": "2024.12",
+      "title": "2024 World Marine Equipment Conference",
+      "desc": "Represented Fujian University of Technology as an exhibitor, showcasing the bionic lobster robot; covered by media outlets including Xinhua News Agency."
+    },
+    "event6": {
+      "date": "2025.07",
+      "title": "2025 ROBOCON National Competition",
+      "desc": "Responsible for full-stack R&D of the legged robot. Ranked 30th nationally in the Speed Race, 31st in the Obstacle Race, and 34th in the Cross-Country Race, securing National Second Prize in all three categories."
+    },
+    "event7": {
+      "date": "2025.08",
+      "title": "2025 National Undergraduate Electronics Design Contest",
+      "desc": "Responsible for the hardware design and fabrication of the power meter for an automatic ranging system, winning the National Second Prize."
+    },
+    "event8": {
+      "date": "2025.09",
+      "title": "Open-Sourced BRS Parallel-Link Quadruped Robot",
+      "desc": "Open-sourced the mechanical structure and control code of the BRS parallel-link quadruped robot on GitHub."
+    },
+    "event9": {
+      "date": "2025.10 - 2026.03",
+      "title": "Internship at HighTorque Robotics",
+      "desc": "Responsible for mechanical design, control algorithm development, and system integration testing for the HTDW4438 bionic quadruped robot, covering both open-source and productized versions."
+    }
+  },
+  "skills": {
+    "title": "Tech Stack",
+    "embedded": "Embedded Development",
+    "robotics": "Robotics",
+    "software": "Toolchain",
+    "hardware": "Mechanical & Hardware Design"
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "bilibili": "Bilibili",
+    "github": "GitHub",
+    "twitter": "Twitter",
+    "zhihu": "Zhihu",
+    "email": "Email"
+  },
+  "footer": {
+    "copyright": "© 2023-2026 Lain-Ego | Personal Homepage"
+  }
+}
