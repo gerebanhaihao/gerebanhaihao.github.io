@@ -944,7 +944,45 @@ nav { z-index: 1000; }
   margin: 0 0 12px;
   padding-left: 4px;
 }
-
+.detail-section h3 {
+  font-size: 1.08rem;
+  color: var(--text-main);
+  margin: 28px 0 12px;
+}
+.detail-section p {
+  margin-bottom: 14px;
+}
+.detail-figure {
+  margin: 26px 0;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--bg-panel);
+}
+.detail-figure img {
+  width: 100%;
+  max-height: 480px;
+  object-fit: contain;
+  background: #fff;
+}
+.detail-figure figcaption {
+  padding: 10px 12px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.detail-figures {
+  display: grid;
+  gap: 18px;
+  margin-top: 4px;
+}
+.formula {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  background: var(--bg-panel);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  overflow-x: auto;
+}
 @media (max-width: 768px) {
   .education-grid { grid-template-columns: 1fr; }
   .detail-page { padding: 38px 0 64px; }
