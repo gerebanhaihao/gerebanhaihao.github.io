@@ -1145,9 +1145,49 @@ nav { z-index: 1000; }
   height: 230px;
   width: auto;
   max-width: 100%;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  background: #fff;
 }
 @media (max-width: 768px) {
   .edu-cert-row img {
     height: 100px;
+  }
+}
+
+.edu-exp-item {
+  padding: 0 0 16px;
+}
+.detail-section .edu-exp-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0 0 6px;
+}
+.edu-exp-date {
+  margin-right: 1.1em;
+}
+.edu-exp-item > p {
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+.edu-img-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: flex-start;
+}
+.edu-img-row img {
+  height: 180px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  background: #fff;
+}
+@media (max-width: 768px) {
+  .edu-img-row img {
+    height: 80px;
   }
 }
