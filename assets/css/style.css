@@ -1151,7 +1151,8 @@ nav { z-index: 1000; }
 }
 @media (max-width: 768px) {
   .edu-cert-row img {
-    height: 100px;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -1188,6 +1189,7 @@ nav { z-index: 1000; }
 }
 @media (max-width: 768px) {
   .edu-img-row img {
-    height: 80px;
+    width: 100%;
+    height: auto;
   }
 }
