@@ -1116,3 +1116,38 @@ nav { z-index: 1000; }
     text-align: center;
   }
 }
+
+.edu-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.edu-2col img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  background: #fff;
+}
+@media (max-width: 768px) {
+  .edu-2col {
+    grid-template-columns: 1fr;
+  }
+}
+
+.edu-cert-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: flex-start;
+}
+.edu-cert-row img {
+  height: 230px;
+  width: auto;
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .edu-cert-row img {
+    height: 100px;
+  }
+}
