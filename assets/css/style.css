@@ -1193,3 +1193,17 @@ nav { z-index: 1000; }
     height: auto;
   }
 }
+
+.detail-figure-group {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.detail-figure-group .detail-figure {
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .detail-figure-group {
+    grid-template-columns: 1fr;
+  }
+}
