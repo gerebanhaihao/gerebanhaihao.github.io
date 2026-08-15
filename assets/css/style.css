@@ -917,6 +917,7 @@ nav { z-index: 1000; }
   margin-bottom: 28px;
 }
 .back-link:hover { color: var(--primary); }
+.nav-container .back-link { margin-bottom: 0; }
 .detail-card { max-width: 860px; margin: 0 auto; }
 .detail-card > h1 {
   font-size: clamp(2rem, 5vw, 3.35rem);
